@@ -2838,7 +2838,7 @@ html {
   }
 
 .tall-video {
-  width: auto;
+  width: auto !important;
   height: 100%;
   object-fit: contain;
 }
