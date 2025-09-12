@@ -2836,3 +2836,9 @@ html {
     font-style: italic;
     font-display: swap;
   }
+
+.tall-video {
+  width: auto;
+  height: 100%;
+  object-fit: contain;
+}
