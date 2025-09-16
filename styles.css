@@ -2837,8 +2837,12 @@ html {
     font-display: swap;
   }
 
-.tall-video {
-  width: auto !important;
-  height: 100%;
-  object-fit: contain;
-}
+  .w-background-video > video.tall-video {
+    position: static !important;
+    width: auto !important;
+    height: 100% !important;
+    object-fit: contain !important;
+    margin-left: 0 !important;
+    margin-right: auto !important;
+    z-index: auto  !important;
+  }
